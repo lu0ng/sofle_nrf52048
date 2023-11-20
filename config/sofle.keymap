@@ -16,6 +16,7 @@
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
+&out OUT_BLE
 
 / {
     // Activate ADJUST layer by pressing raise and lower
