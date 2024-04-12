@@ -44,7 +44,7 @@
 
             bindings = <
 &kp ESC    &kp N1  &kp N2     &kp N3    &kp N4    &kp N5                                 &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &kp BACKSLASH
-&kp TAB    &kp Q   &kp W      &kp E     &kp R     &kp T                                  &kp Y      &kp U     &kp I      &kp O      &kp P     &kp DEL
+&kp TAB    &kp Q   &kp W      &kp E     &kp R     &kp T                                  &kp Y      &kp U     &kp I      &kp O      &kp P     &kp DELETE
 &kp CAPS   &kp A   &kp S      &kp D     &kp F     &kp G                                  &kp H      &kp J     &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X      &kp C     &kp V     &kp B      &kp K_MUTE    &kt KP_ENTER  &kp N      &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp KP_ENTER
                    &kp LCTRL  &kp LALT  &kp LGUI  &mo LOWER  &kp SPACE     &kp RET       &mo RAISE  &kp RGUI  &kp RALT   &kp RCTRL
