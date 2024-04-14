@@ -90,11 +90,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp ESC    &mkp LCLK   &mkp RCLK         &mkp MCLK     &mkp MB4     &mkp MB5                           &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans         &kp LPAR          &kp RPAR      &kp PIPE
-&kp TAB    &kp INS     &kp PSCRN         &kp K_CMENU   &trans       &trans                             &kp LBKT        &kp RBKT         &kp UP         &trans            &trans        &kt BACKSPACE
-&kp CAPS   &trans      &trans            &trans        &trans       &kp PG_UP                          &kp PG_DN       &kp LEFT         &kp DOWN       &kp RIGHT         &kp COLON     &kp DOUBLE_QUOTES
-&kp LSHFT  &kp K_UNDO  &kp K_CUT         &kp K_COPY    &kp K_PASTE  &trans     &trans       &trans     &trans          &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
-                       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LCMD     &trans     &kp SPACE    &kp ENTER  &trans          &kp UNDERSCORE   &kp PLUS       &kp TILDE
+&kp ESC    &mkp LCLK  &mkp RCLK         &mkp MCLK     &mkp MB4  &mkp MB5                           &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans         &kp LPAR          &kp RPAR      &kp PIPE
+&kp TAB    &kp INS    &kp PSCRN         &kp K_CMENU   &trans    &trans                             &kp LBKT        &kp RBKT         &kp UP         &trans            &trans        &kt BACKSPACE
+&kp CAPS   &trans     &trans            &trans        &trans    &kp PG_UP                          &kp PG_DN       &kp LEFT         &kp DOWN       &kp RIGHT         &kp COLON     &kp DOUBLE_QUOTES
+&kp LSHFT  &kp Z      &kp X             &kp C         &kp V     &trans     &trans       &trans     &trans          &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
+                      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LCMD  &trans     &kp SPACE    &kp ENTER  &trans          &kp UNDERSCORE   &kp PLUS       &kp TILDE
             >;
 
             sensor-bindings =
