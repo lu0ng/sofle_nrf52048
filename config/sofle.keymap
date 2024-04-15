@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define BASE 0
@@ -90,11 +89,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp ESC    &mkp LCLK  &mkp RCLK         &mkp MCLK     &mkp MB4  &mkp MB5                           &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans         &kp LPAR          &kp RPAR      &kp PIPE
-&kp TAB    &kp INS    &kp PSCRN         &kp K_CMENU   &trans    &trans                             &kp LBKT        &kp RBKT         &kp UP         &trans            &trans        &kt BACKSPACE
-&kp CAPS   &trans     &trans            &trans        &trans    &kp PG_UP                          &kp PG_DN       &kp LEFT         &kp DOWN       &kp RIGHT         &kp COLON     &kp DOUBLE_QUOTES
-&kp LSHFT  &kp Z      &kp X             &kp C         &kp V     &trans     &trans       &trans     &trans          &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
-                      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LCMD  &trans     &kp SPACE    &kp ENTER  &trans          &kp UNDERSCORE   &kp PLUS       &kp TILDE
+&kp ESC    &trans  &trans            &trans        &trans    &trans                          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &kp LPAR          &kp RPAR           &kp PIPE
+&kp TAB    &trans  &trans            &trans        &trans    &trans                          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UP         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp CAPS   &trans  &trans            &trans        &trans    &trans                          &kp PG_UP         &kp LEFT           &kp DOWN       &kp RIGHT         &kp COLON          &kp DOUBLE_QUOTES
+&kp LSHFT  &kp Z   &kp X             &kp C         &kp V     &trans  &trans       &trans     &kp PG_DN         &trans             &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION       &trans
+                   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LCMD  &trans  &kp SPACE    &kp ENTER  &trans            &kp UNDERSCORE     &kp PLUS       &kp TILDE
             >;
 
             sensor-bindings =
